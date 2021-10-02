@@ -3,4 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
+.input {
+    width: 250px;
+    margin: 20px;
+}
