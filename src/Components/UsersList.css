@@ -1,0 +1,17 @@
+.container {
+    width: 500px;
+    margin: 15px 0;
+    display: table;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    font-size: 13px;
+    width: 100%;
+}
