@@ -1,2 +1,7 @@
-
+.app-container {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
 

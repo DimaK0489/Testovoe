@@ -4,7 +4,7 @@ import {UsersList} from './Components/UsersList';
 
 function App() {
     return (
-        <div>
+        <div className={'app-container'}>
             <UsersList/>
         </div>
     );
