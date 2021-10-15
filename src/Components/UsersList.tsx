@@ -27,6 +27,8 @@ export const UsersList = React.memo(() => {
         const value = ev.currentTarget.value
         const results = users.filter((user) => {
             return user.name.toLowerCase().indexOf(value) > -1
+            || user.username.toLowerCase().indexOf(value) > -1
+            || user.email.toLowerCase().indexOf(value) > -1
         })
         setFoundUsers(results)
     }

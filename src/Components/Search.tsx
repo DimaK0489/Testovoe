@@ -14,7 +14,6 @@ export const Search = (props: SearchPropsType) => {
         dispatch(getUsersListTC())
     }, [dispatch])
 
-
     return (
         <>
             <input
